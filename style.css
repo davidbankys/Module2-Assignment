@@ -44,6 +44,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .col {
+    width: 80%;
+    background-color: yellow;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .column {
@@ -52,10 +58,4 @@
   }
 }
 
-.column {
-  float: left;
-  width: 32.6%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-  border: 1px solid red;
-  margin: 5px;
+
